@@ -1,0 +1,20 @@
+h1 {
+    width: 100%;
+    max-width: 500px;
+    border-bottom: double 3px blue;
+    margin: auto;
+    text-align: center;
+}
+
+
+h2 {
+    border: solid 2px red;
+    padding: 15px;
+}
+h2:hover {
+    color: blue;
+}
+
+p:hover {
+    color: green;
+}
