@@ -1,0 +1,1992 @@
+.logo{
+    width: 100;
+    max-width: 300px;
+    float: left;
+}
+#logo{
+    width: 150px;
+}
+
+
+nav{
+    width: 100%;
+   /* max-width: 1300px;*/
+}
+
+nav ul{
+    height: 30px;
+    padding: 60px 0px;
+    background-color: black;
+
+}
+
+nav ul li{
+    display: inline;
+    padding: 20px 25px;
+    list-style: none;
+}
+nav ul li:hover, nav ul li.active{
+    background-color: rgb(8, 251, 8);
+}
+
+nav ul li:hover a{
+  color: rgb(5, 5, 5);
+}
+nav ul li a{
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+/* END HEADER*/
+
+
+.bg-gray {
+	background-color: $color_alabaster_approx;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 57px;
+	.subtitle {
+		font-size: 20px;
+		font-weight: 600;
+		color: $color_dodger_blue_approx;
+		line-height: 26px;
+		display: block;
+	}
+	.title {
+		font-size: 60px;
+		line-height: 60px;
+		margin-bottom: 18px;
+		font-weight: 700;
+	}
+	p {
+		font-size: 16px;
+		color: $color_gray_approx;
+		max-width: 720px;
+		margin: 0 auto;
+	}
+}
+.video-tutorial {
+	padding: 110px 0 0 0;
+	.demo-wrapper {
+		margin-bottom: 40px;
+		.title {
+			font-size: 30px;
+			line-height: 40px;
+			margin-bottom: 30px;
+			display: block;
+			text-align: center;
+		}
+	}
+}
+.price-plan-wrapper {
+	padding: 0 0 60px 0;
+}
+.pricing-table-1 {
+	border: 3px solid $color_mercury_approx;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	text-align: center;
+	padding: 38px 0 40px;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	margin-bottom: 30px;
+	&:hover {
+		border-color: $color_dodger_blue_approx;
+	}
+	.price-header {
+		.title {
+			color: $color_shark_approx;
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-bottom: 25px;
+		}
+		.price {
+			font-size: 50px;
+			line-height: 60px;
+			color: $color_shark_approx;
+			font-weight: 600;
+			margin-bottom: 25px;
+			.dollar {
+				font-size: 33px;
+				line-height: 33px;
+				position: relative;
+				top: -12px;
+			}
+			.month {
+				font-size: 22px;
+				line-height: 23px;
+			}
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			border: 2px solid $color_dodger_blue_approx;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $color_shark_approx;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			font-weight: 600;
+			i {
+				font-size: 13px;
+				padding-left: 2px;
+			}
+			&:hover {
+				background-color: $color_dodger_blue_approx;
+				color: $white;
+				border-color: $color_dodger_blue_approx;
+			}
+		}
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			display: block;
+			color: gray;
+			margin: 27px 0;
+			&:first-child {
+				margin-top: 0;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.pricing-table-2 {
+	border: 3px solid $color_mercury_approx;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	text-align: center;
+	padding: 38px 0 40px;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	margin-bottom: 30px;
+	&:hover {
+		border-color: $color_dodger_blue_approx;
+	}
+	.price-header {
+		.title {
+			color: $color_shark_approx;
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-bottom: 25px;
+		}
+		.icon {
+			font-size: 60px;
+			line-height: 60px;
+			margin-bottom: 30px;
+			color: $color_dodger_blue_approx;
+		}
+		.price {
+			font-size: 50px;
+			line-height: 60px;
+			color: $color_shark_approx;
+			font-weight: 600;
+			margin-bottom: 25px;
+			.dollar {
+				font-size: 33px;
+				line-height: 33px;
+				position: relative;
+				top: -12px;
+			}
+			.month {
+				font-size: 22px;
+				line-height: 23px;
+			}
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			border: 2px solid $color_dodger_blue_approx;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $color_shark_approx;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			font-weight: 600;
+			i {
+				font-size: 13px;
+				padding-left: 2px;
+			}
+			&:hover {
+				background-color: $color_dodger_blue_approx;
+				color: $white;
+				border-color: $color_dodger_blue_approx;
+			}
+		}
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			display: block;
+			color: $color_regent_gray_approx;
+			margin: 27px 0;
+			&:first-child {
+				margin-top: 0;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.pricing-table-3 {
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 7px 0 $color_royal_blue_35_approx;
+	text-align: center;
+	padding: 38px 0 40px;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	margin-bottom: 30px;
+	&:hover {
+		border-color: $color_dodger_blue_approx;
+	}
+	.price-header {
+		position: relative;
+		.pbadge {
+			position: absolute;
+			left: 50%;
+			top: -60px;
+			width: 80%;
+			background-color: $color_dodger_blue_approx;
+			color: $white;
+			padding: 10px 0;
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translateX(-50%);
+			&:after {
+				position: absolute;
+				left: -40px;
+				top: 0;
+				border-left: 20px solid transparent;
+				border-right: 20px solid $color_tory_blue_approx;
+				border-top: 22px solid transparent;
+				content: "";
+			}
+			&:before {
+				position: absolute;
+				right: -40px;
+				top: 0;
+				border-left: 20px solid $color_tory_blue_approx;
+				border-right: 20px solid transparent;
+				border-top: 22px solid transparent;
+				content: "";
+			}
+		}
+		.title {
+			color: $color_shark_approx;
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-bottom: 25px;
+		}
+		.icon {
+			font-size: 60px;
+			line-height: 60px;
+			margin-bottom: 30px;
+			color: $color_dodger_blue_approx;
+		}
+		.price {
+			font-size: 50px;
+			line-height: 60px;
+			color: $color_dodger_blue_approx;
+			font-weight: 700;
+			margin-bottom: 25px;
+			.dollar {
+				font-size: 33px;
+				line-height: 33px;
+				position: relative;
+				top: -12px;
+			}
+			.month {
+				font-size: 22px;
+				line-height: 23px;
+			}
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $white;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s ease-in;
+			font-weight: 600;
+			background-color: $color_dodger_blue_approx;
+			position: relative;
+			overflow: hidden;
+			&:after {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 50px;
+				height: 100%;
+				background-color: $white_10;
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: skewX(35deg) translateX(-60px);
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: 0.5s ease-in;
+				content: "";
+			}
+			&:before {
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 50px;
+				height: 100%;
+				background-color: $white_10;
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: skewX(35deg) translateX(60px);
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: 0.5s ease-in;
+				content: "";
+			}
+			&:hover {
+				&:after {
+					//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+					transform: skewX(35deg) translateX(190px);
+				}
+				&:before {
+					//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+					transform: skewX(35deg) translateX(-190px);
+				}
+			}
+		}
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			display: block;
+			color: $color_regent_gray_approx;
+			margin: 27px 0;
+			&:first-child {
+				margin-top: 0;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.pricing-table-4 {
+	text-align: center;
+	padding: 38px 0 40px;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	position: relative;
+	border: 1px solid $mercury;
+	z-index: 0;
+	margin-bottom: 30px;
+	&:after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 6px;
+		background-color: $color_dodger_blue_approx;
+		content: "";
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: height 0.5s ease-in;
+		z-index: -1;
+	}
+	&:hover {
+		&:after {
+			height: 100%;
+		}
+		.price-header {
+			.icon {
+				color: $white;
+			}
+			.price {
+				color: $white;
+			}
+		}
+		.price-body ul li {
+			color: $color_mercury_approx;
+		}
+		.price-footer .order-btn {
+			background-color: $white;
+			color: $color_shark_approx;
+		}
+	}
+	.price-header {
+		.title {
+			color: $color_shark_approx;
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-bottom: 25px;
+		}
+		.icon {
+			font-size: 60px;
+			line-height: 60px;
+			margin-bottom: 30px;
+			color: $color_dodger_blue_approx;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+		}
+		.price {
+			font-size: 50px;
+			line-height: 60px;
+			color: $color_dodger_blue_approx;
+			font-weight: 700;
+			margin-bottom: 25px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			.dollar {
+				font-size: 33px;
+				line-height: 33px;
+				position: relative;
+				top: -12px;
+			}
+			.month {
+				font-size: 22px;
+				line-height: 23px;
+			}
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $white;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s ease-in;
+			font-weight: 600;
+			background-color: $color_dodger_blue_approx;
+			position: relative;
+			overflow: hidden;
+		}
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			display: block;
+			color: $color_regent_gray_approx;
+			margin: 27px 0;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			&:first-child {
+				margin-top: 0;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.pricing-table-5 {
+	text-align: center;
+	padding: 38px 0 40px;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	position: relative;
+	border: 1px solid $mercury;
+	z-index: 0;
+	margin-bottom: 30px;
+	&:after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 6px;
+		background-color: $color_dodger_blue_approx;
+		content: "";
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: height 0.5s ease-in;
+		z-index: -1;
+	}
+	.price-header {
+		.title {
+			color: $color_shark_approx;
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-bottom: 25px;
+		}
+		.icon {
+			font-size: 60px;
+			line-height: 60px;
+			margin-bottom: 30px;
+			color: $color_dodger_blue_approx;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+		}
+		.price {
+			font-size: 50px;
+			line-height: 60px;
+			color: $color_dodger_blue_approx;
+			font-weight: 700;
+			margin-bottom: 25px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			.dollar {
+				font-size: 33px;
+				line-height: 33px;
+				position: relative;
+				top: -12px;
+			}
+			.month {
+				font-size: 22px;
+				line-height: 23px;
+			}
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $white;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s ease-in;
+			font-weight: 600;
+			background-color: $color_dodger_blue_approx;
+			position: relative;
+			overflow: hidden;
+		}
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			display: block;
+			color: $color_regent_gray_approx;
+			margin: 27px 0;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			&:first-child {
+				margin-top: 0;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.pricing-table-6 {
+	text-align: center;
+	padding: 38px 0 40px;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	position: relative;
+	z-index: 0;
+	background-color: $color_royal_blue_approx;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 6px;
+	overflow: hidden;
+	margin-bottom: 30px;
+	&.bg-orange {
+		background-color: $color_flamingo_approx;
+	}
+	.price-header {
+		.title {
+			color: $white;
+			font-size: 22px;
+			text-transform: uppercase;
+			font-weight: 400;
+			margin-bottom: 35px;
+		}
+		.icon {
+			font-size: 60px;
+			line-height: 60px;
+			margin-bottom: 30px;
+			color: $color_dodger_blue_approx;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+		}
+		.price {
+			font-size: 62px;
+			line-height: 60px;
+			color: $color_shark_approx;
+			font-weight: 800;
+			margin-bottom: 25px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			text-align: left;
+			padding-left: 40px;
+			position: relative;
+			padding: 20px 0 20px 60px;
+			z-index: 0;
+			&:after {
+				position: absolute;
+				left: -20%;
+				top: 0;
+				width: 100%;
+				background-color: $white;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 25px;
+				content: "";
+				height: 100%;
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: skewX(-35deg);
+				z-index: -1;
+			}
+			.dollar {
+				font-size: 33px;
+				line-height: 33px;
+				position: relative;
+				top: -12px;
+			}
+			.month {
+				font-size: 22px;
+				line-height: 23px;
+			}
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $color_shark_approx;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s ease-in;
+			font-weight: 600;
+			background-color: $white;
+			position: relative;
+			overflow: hidden;
+			&:hover {
+				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: 0 0 21px 0 $black_35;
+				background-color: $color_mine_shaft_approx;
+				color: $white;
+			}
+		}
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			display: block;
+			color: $mercury;
+			margin: 27px 0;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			&:first-child {
+				margin-top: 0;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.pricing-table-7 {
+	text-align: center;
+	padding: 38px 0 40px;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	position: relative;
+	z-index: 0;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 6px;
+	overflow: hidden;
+	border: 2px solid $mercury;
+	margin-bottom: 30px;
+	.price-header {
+		.title {
+			color: $color_shark_approx;
+			font-size: 22px;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-bottom: 35px;
+		}
+		.icon {
+			font-size: 60px;
+			line-height: 60px;
+			margin-bottom: 30px;
+			color: $color_dodger_blue_approx;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+		}
+		.price {
+			font-size: 50px;
+			line-height: 60px;
+			color: $white;
+			font-weight: 400;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			text-align: center;
+			position: relative;
+			z-index: 0;
+			background-color: $color_dodger_blue_approx;
+			height: 170px;
+			width: 170px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 50%;
+			margin: 0 auto;
+			overflow: hidden;
+			.top {
+				padding-top: 40px;
+				height: 60px;
+			}
+			.dollar {
+				font-size: 33px;
+				line-height: 33px;
+				position: relative;
+				top: -12px;
+			}
+			.month {
+				margin-top: 60px;
+				font-size: 16px;
+				line-height: 20px;
+				display: block;
+				background-color: $color_shark_approx;
+				width: 100%;
+				height: 50px;
+				padding-top: 10px;
+			}
+		}
+	}
+	&.yellow {
+		.price-header .price {
+			background-color: $color_orange_peel_approx;
+		}
+		.price-footer .order-btn {
+			background-color: $color_orange_peel_approx;
+		}
+	}
+	&.green {
+		.price-header .price {
+			background-color: $color_olive_drab_approx;
+		}
+		.price-footer .order-btn {
+			background-color: $color_olive_drab_approx;
+		}
+	}
+	&.red-pink {
+		.price-header .price {
+			background-color: $color_maroon_flush_approx;
+		}
+		.price-footer .order-btn {
+			background-color: $color_maroon_flush_approx;
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $white;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s ease-in;
+			font-weight: 600;
+			background-color: $white;
+			position: relative;
+			overflow: hidden;
+			&:hover {
+				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: 0 0 21px 0 $black_35;
+				background-color: $color_mine_shaft_approx;
+				color: $white;
+			}
+		}
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		margin-top: 30px;
+		li {
+			list-style: none;
+			display: block;
+			color: $color_shark_approx;
+			margin: 27px 0;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			&:first-child {
+				margin-top: 0;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.pricing-table-8 {
+	text-align: center;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	position: relative;
+	z-index: 0;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 30px;
+	overflow: hidden;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 7px 0 $color_royal_blue_35_approx;
+	margin-bottom: 30px;
+	.price-header {
+		.title {
+			color: $white;
+			font-size: 36px;
+			line-height: 46px;
+			text-transform: uppercase;
+			font-weight: 600;
+			padding: 20px 0;
+			margin-bottom: 30px;
+			background-color: $color_cloud_burst_approx;
+		}
+		.price {
+			font-size: 50px;
+			line-height: 60px;
+			color: $color_dodger_blue_approx;
+			font-weight: 700;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			text-align: center;
+			position: relative;
+			z-index: 0;
+			border-bottom: 2px solid $color_nebula_approx;
+			padding-bottom: 25px;
+			margin: 0 20px;
+			.dollar {
+				font-size: 33px;
+				line-height: 33px;
+				position: relative;
+				top: -12px;
+			}
+			.month {
+				font-size: 16px;
+				line-height: 20px;
+			}
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $white;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s ease-in;
+			font-weight: 600;
+			background-color: $color_dodger_blue_approx;
+			position: relative;
+			overflow: hidden;
+			margin-bottom: 30px;
+			&:hover {
+				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: 0 0 21px 0 $black_35;
+				background-color: $color_mine_shaft_approx;
+				color: $white;
+			}
+		}
+	}
+	&.active .price-header {
+		position: relative;
+		.popular {
+			position: absolute;
+			top: 15px;
+			right: -55px;
+			display: inline-block;
+			background-color: $color_cloud_burst_approx;
+			padding: 10px 30px;
+			width: 180px;
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: rotate(40deg);
+			color: $white;
+			text-transform: uppercase;
+			font-size: 12px;
+		}
+		.title {
+			background-color: $color_dodger_blue_approx;
+		}
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		margin-top: 30px;
+		li {
+			list-style: none;
+			display: block;
+			color: $color_shark_approx;
+			margin: 27px 0;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			&:first-child {
+				margin-top: 0;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.pricing-table-9 {
+	text-align: center;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	position: relative;
+	z-index: 0;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 30px;
+	overflow: hidden;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 7px 0 $color_royal_blue_35_approx;
+	margin-bottom: 30px;
+	&.active {
+		.price-header {
+			position: relative;
+		}
+		.icon-area {
+		}
+	}
+	.icon-area {
+		background-color: $color_cloud_burst_approx;
+		color: $white;
+		font-size: 60px;
+		line-height: 60px;
+		padding: 30px 0;
+		margin-bottom: 45px;
+		position: relative;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: 0.3s ease-in;
+		&:after {
+			position: absolute;
+			left: 50%;
+			bottom: -15px;
+			border-left: 15px solid transparent;
+			border-right: 15px solid transparent;
+			border-top: 15px solid $color_cloud_burst_approx;
+			content: "";
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translateX(-50%);
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+		}
+	}
+	.price-header {
+		.title {
+			color: $color_shark_approx;
+			font-size: 24px;
+			line-height: 30px;
+			text-transform: uppercase;
+			font-weight: 600;
+		}
+		.price {
+			font-size: 50px;
+			line-height: 60px;
+			color: $color_trinidad_approx;
+			font-weight: 700;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			text-align: center;
+			position: relative;
+			.dollar {
+				font-size: 33px;
+				line-height: 33px;
+				position: relative;
+				top: -12px;
+			}
+			.month {
+				font-size: 16px;
+				line-height: 20px;
+			}
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $white;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s ease-in;
+			font-weight: 600;
+			background-color: $color_trinidad_approx;
+			position: relative;
+			overflow: hidden;
+			margin-bottom: 30px;
+			&:hover {
+				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: 0 0 21px 0 $black_35;
+				background-color: $color_mine_shaft_approx;
+				color: $white;
+			}
+		}
+	}
+	&:hover .icon-area {
+		background-color: $color_trinidad_approx;
+		&:after {
+			border-top-color: $color_trinidad_approx;
+		}
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		margin-top: 15px;
+		li {
+			list-style: none;
+			display: block;
+			color: $color_shark_approx;
+			margin: 0 30px;
+			padding: 15px 0;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			border-bottom: 1px solid $color_solitude_approx;
+			&:first-child {
+				margin-top: 0;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.pricing-table-10 {
+	text-align: center;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	position: relative;
+	z-index: 0;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 30px;
+	overflow: hidden;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 7px 0 $color_royal_blue_35_approx;
+	margin-bottom: 30px;
+	&:hover {
+		.icon-area {
+			background-color: $color_trinidad_approx;
+			color: $white;
+			.title {
+				color: $white;
+			}
+		}
+		.price-footer {
+			background-color: $color_trinidad_approx;
+			.price {
+				color: $white;
+			}
+			.dollar {
+				color: $white;
+			}
+			.month {
+				color: $white;
+			}
+			.order-btn {
+				background-color: $white;
+				color: $color_shark_approx;
+			}
+		}
+	}
+	.icon-area {
+		background-color: $gallery;
+		color: $color_trinidad_approx;
+		font-size: 60px;
+		line-height: 60px;
+		padding: 30px 0 20px;
+		margin-bottom: 35px;
+		position: relative;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: 0.3s ease-in;
+		.title {
+			color: $color_shark_approx;
+			font-size: 24px;
+			line-height: 30px;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-top: 20px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		background-color: $gallery;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: 0.3s ease-in;
+		.price {
+			font-size: 50px;
+			line-height: 60px;
+			color: $color_trinidad_approx;
+			font-weight: 700;
+			text-align: center;
+			position: relative;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			padding: 25px 0;
+			.dollar {
+				font-size: 33px;
+				line-height: 33px;
+				position: relative;
+				top: -12px;
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: 0.3s ease-in;
+			}
+			.month {
+				font-size: 16px;
+				line-height: 20px;
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: 0.3s ease-in;
+			}
+		}
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $white;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s ease-in;
+			font-weight: 600;
+			background-color: $color_trinidad_approx;
+			position: relative;
+			overflow: hidden;
+			margin-bottom: 30px;
+			&:hover {
+				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: 0 0 21px 0 $black_35;
+				background-color: $color_mine_shaft_approx;
+				color: $white;
+			}
+		}
+	}
+	&.active .price-header {
+		position: relative;
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		margin-top: 15px;
+		li {
+			list-style: none;
+			display: block;
+			color: $color_shark_approx;
+			margin: 0 30px;
+			padding: 15px 0;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			border-bottom: 1px solid $color_solitude_approx;
+			&:first-child {
+				margin-top: 0;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.pricing-table-11 {
+	text-align: center;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	position: relative;
+	z-index: 0;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	overflow: hidden;
+	border: 2px solid $color_mercury_approx;
+	margin-bottom: 30px;
+	.price-header {
+		position: relative;
+		padding: 10px 0 25px;
+		.subtitle {
+			font-size: 14px;
+		}
+		.title {
+			color: $color_shark_approx;
+			font-size: 18px;
+			line-height: 20px;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-top: 20px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			margin-bottom: 5px;
+		}
+	}
+	&.active {
+		.price-header {
+			position: relative;
+		}
+		.popular {
+			position: absolute;
+			right: -20px;
+			top: 25px;
+			background-color: $color_dodger_blue_approx;
+			padding: 5px 25px;
+			color: $white;
+			font-size: 12px;
+			text-transform: uppercase;
+			font-weight: 700;
+			letter-spacing: 1px;
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: rotate(90deg);
+			&:after {
+				position: absolute;
+				right: -8px;
+				bottom: 5px;
+				border-left: 15px solid transparent;
+				border-right: 15px solid transparent;
+				border-top: 15px solid $white;
+				content: "";
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: rotate(88deg);
+			}
+		}
+	}
+	.price {
+		font-size: 50px;
+		line-height: 60px;
+		color: $color_shark_approx;
+		font-weight: 400;
+		text-align: center;
+		position: relative;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: 0.3s ease-in;
+		padding: 25px 0 10px;
+		border-top: 2px solid $color_mercury_approx;
+		margin: 0 20px;
+		.dollar {
+			font-size: 33px;
+			line-height: 33px;
+			position: relative;
+			top: -12px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+		}
+		.month {
+			font-size: 20px;
+			line-height: 20px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			font-weight: 400;
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $color_shark_approx;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s ease-in;
+			font-weight: 600;
+			position: relative;
+			overflow: hidden;
+			margin-bottom: 30px;
+			border: 2px solid $color_dodger_blue_approx;
+			&:hover {
+				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: 0 0 21px 0 $black_35;
+				background-color: $color_dodger_blue_approx;
+				color: $white;
+			}
+		}
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			display: block;
+			color: $color_shark_approx;
+			margin: 0 30px;
+			padding: 15px 0;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			&:first-child {
+				margin-top: 0;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.pricing-table-12 {
+	text-align: center;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	position: relative;
+	z-index: 0;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	overflow: hidden;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 7px 0 $color_royal_blue_35_approx;
+	margin-bottom: 30px;
+	.price-header {
+		padding: 20px 0 35px;
+		background-color: $color_pickled_bluewood_approx;
+		margin-bottom: 30px;
+		background-image: url($data_uri_0);
+		position: relative;
+		z-index: 0;
+		&:after {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background-color: $color_dodger_blue_20_approx;
+			content: "";
+			z-index: -1;
+		}
+		.subtitle {
+			font-size: 14px;
+			color: $color_mercury_approx;
+		}
+		.title {
+			color: $white;
+			font-size: 21px;
+			line-height: 26px;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-top: 20px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			margin-bottom: 5px;
+		}
+	}
+	.icon-area {
+		font-size: 60px;
+		line-height: 60px;
+		color: $color_dodger_blue_approx;
+		margin-bottom: 10px;
+		display: block;
+	}
+	.price {
+		font-size: 50px;
+		line-height: 60px;
+		color: $color_shark_approx;
+		font-weight: 800;
+		text-align: center;
+		position: relative;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: 0.3s ease-in;
+		padding: 15px 0 10px;
+		margin: 0 20px;
+		.dollar {
+			font-size: 33px;
+			line-height: 33px;
+			position: relative;
+			top: -12px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+		}
+		.month {
+			font-size: 20px;
+			line-height: 20px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			font-weight: 800;
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $color_shark_approx;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s ease-in;
+			font-weight: 600;
+			position: relative;
+			overflow: hidden;
+			margin-bottom: 30px;
+			border: 2px solid $color_dodger_blue_approx;
+			&:hover {
+				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: 0 0 21px 0 $black_35;
+				background-color: $color_dodger_blue_approx;
+				color: $white;
+			}
+		}
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			display: block;
+			color: $color_shark_approx;
+			margin: 0 30px;
+			padding: 15px 0;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			border-bottom: 1px solid $color_solitude_approx;
+			&:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+				margin-bottom: 0;
+			}
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+}
+.pricing-table-13 {
+	text-align: center;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	position: relative;
+	z-index: 0;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	overflow: hidden;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 7px 0 $color_royal_blue_35_approx;
+	margin-bottom: 30px;
+	.price-header {
+		padding: 30px 0 65px;
+		background-color: $gallery;
+		position: relative;
+		z-index: 0;
+		.title {
+			color: $color_shark_approx;
+			font-size: 21px;
+			line-height: 26px;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-top: 20px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			margin-bottom: 5px;
+		}
+		.icon {
+			font-size: 60px;
+			line-height: 60px;
+			color: $color_trinidad_approx;
+			display: block;
+		}
+	}
+	.price {
+		font-size: 40px;
+		color: $white;
+		font-weight: 700;
+		text-align: center;
+		position: relative;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: 0.3s ease-in;
+		background-color: $color_trinidad_approx;
+		width: 90px;
+		height: 90px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 50%;
+		line-height: 90px;
+		left: 50%;
+		margin-top: -45px;
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-50%);
+		margin-bottom: 15px;
+		.dollar {
+			font-size: 33px;
+			line-height: 33px;
+			position: relative;
+			top: -12px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+		}
+		.month {
+			font-size: 20px;
+			line-height: 20px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			font-weight: 800;
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $white;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s ease-in;
+			font-weight: 600;
+			position: relative;
+			overflow: hidden;
+			margin-bottom: 30px;
+			background-color: $color_trinidad_approx;
+			&:hover {
+				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: 0 0 21px 0 $color_trinidad_70_approx;
+			}
+		}
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			display: block;
+			color: $color_shark_approx;
+			margin: 0 30px;
+			padding: 15px 0;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			border-bottom: 1px solid $color_solitude_approx;
+			&:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+				margin-bottom: 0;
+			}
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+}
+.pricing-table-14 {
+	text-align: center;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 7px 0 $color_royal_blue_35_approx;
+	margin-bottom: 30px;
+	.price-header {
+		position: relative;
+		padding: 30px 0 25px;
+		background-color: $gallery;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: 0.3s ease-in;
+		.permonth {
+			position: absolute;
+			left: 50%;
+			bottom: -20px;
+			background-color: $white;
+			padding: 10px 35px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translateX(-50%);
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 0 11px 0 $black_10;
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 400;
+			color: $color_tuatara_approx;
+		}
+		.title {
+			color: $color_shark_approx;
+			font-size: 21px;
+			line-height: 26px;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-top: 20px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			margin-bottom: 15px;
+		}
+	}
+	&:hover {
+		.price-header {
+			background-color: $color_mariner_approx;
+			.title {
+				color: $white;
+			}
+		}
+		.price {
+			color: $white;
+		}
+	}
+	.price {
+		font-size: 50px;
+		color: $color_shark_approx;
+		font-weight: 800;
+		text-align: center;
+		position: relative;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: 0.3s ease-in;
+		margin-bottom: 15px;
+		.dollar {
+			font-size: 33px;
+			line-height: 33px;
+			position: relative;
+			top: -12px;
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $white;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s ease-in;
+			font-weight: 600;
+			position: relative;
+			overflow: hidden;
+			margin-bottom: 30px;
+			background-color: $color_mariner_approx;
+			&:hover {
+				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: 0 0 21px 0 $color_mariner_70_approx;
+			}
+		}
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		margin-top: 40px;
+		li {
+			list-style: none;
+			display: block;
+			color: $color_shark_approx;
+			margin: 0 30px;
+			padding: 15px 0;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			border-bottom: 1px solid $color_solitude_approx;
+			&:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+				margin-bottom: 0;
+			}
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+}
+.pricing-table-15 {
+	text-align: center;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 7px 0 $color_royal_blue_35_approx;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	border: 2px solid transparent;
+	margin-bottom: 30px;
+	&:hover {
+		border-color: $color_mariner_approx;
+	}
+	.price-header {
+		position: relative;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: 0.3s ease-in;
+		.icon {
+			background-color: $color_mariner_approx;
+			color: $white;
+			width: 50%;
+			margin: 0 auto;
+			height: 80px;
+			font-size: 50px;
+			line-height: 80px;
+			//Instead of the line below you could use @include border-bottom-left-radius($radius)
+			border-bottom-left-radius: 20px;
+			//Instead of the line below you could use @include border-bottom-right-radius($radius)
+			border-bottom-right-radius: 20px;
+		}
+		.title {
+			color: $color_shark_approx;
+			font-size: 21px;
+			line-height: 26px;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-top: 20px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			margin-bottom: 5px;
+		}
+		.subtitle {
+			margin-bottom: 5px;
+			display: block;
+			font-size: 14px;
+		}
+	}
+	.price {
+		font-size: 50px;
+		color: $color_shark_approx;
+		font-weight: 700;
+		text-align: center;
+		position: relative;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: 0.3s ease-in;
+		.month {
+			font-size: 16px;
+			font-weight: 600;
+		}
+		.dollar {
+			font-size: 33px;
+			line-height: 33px;
+			position: relative;
+			top: -12px;
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $white;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s ease-in;
+			font-weight: 600;
+			position: relative;
+			overflow: hidden;
+			margin-bottom: 30px;
+			background-color: $color_mariner_approx;
+			&:hover {
+				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: 0 0 21px 0 $color_mariner_70_approx;
+			}
+		}
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			display: block;
+			color: $color_shark_approx;
+			margin: 0 30px;
+			padding: 15px 0;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			border-bottom: 1px solid $color_solitude_approx;
+			&:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+				margin-bottom: 0;
+			}
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+}
+.pricing-table-16 {
+	text-align: center;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.3s ease-in;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 7px 0 $color_royal_blue_35_approx;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	border: 2px solid transparent;
+	margin-bottom: 30px;
+	&:hover {
+		border-color: $color_mariner_approx;
+	}
+	.price-header {
+		position: relative;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: 0.3s ease-in;
+		.title {
+			color: $color_shark_approx;
+			font-size: 21px;
+			line-height: 26px;
+			text-transform: uppercase;
+			font-weight: 600;
+			margin-top: 20px;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			margin-bottom: 5px;
+			padding: 10px 0 0;
+		}
+		.subtitle {
+			margin-bottom: 5px;
+			display: block;
+			font-size: 14px;
+		}
+	}
+	.price {
+		font-size: 50px;
+		color: $white;
+		font-weight: 700;
+		text-align: center;
+		position: relative;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: 0.3s ease-in;
+		height: 130px;
+		width: 150px;
+		background-color: $color_mariner_approx;
+		margin: 30px auto 15px auto;
+		line-height: 130px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 10px;
+		z-index: 0;
+		.month {
+			font-size: 16px;
+			font-weight: 600;
+		}
+		.dollar {
+			font-size: 33px;
+			line-height: 33px;
+			position: relative;
+			top: -12px;
+		}
+	}
+	.price-footer {
+		margin-top: 40px;
+		.order-btn {
+			display: inline-block;
+			width: 165px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-size: 14px;
+			text-transform: uppercase;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 25px;
+			color: $white;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.5s ease-in;
+			font-weight: 600;
+			position: relative;
+			overflow: hidden;
+			margin-bottom: 30px;
+			background-color: $color_mariner_approx;
+			&:hover {
+				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: 0 0 21px 0 $color_mariner_70_approx;
+			}
+		}
+	}
+	.price-body ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			display: block;
+			color: $color_regent_gray_approx;
+			margin: 0 30px;
+			padding: 15px 0;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: 0.3s ease-in;
+			&:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+				margin-bottom: 0;
+			}
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+}
