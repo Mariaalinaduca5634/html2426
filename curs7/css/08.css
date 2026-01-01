@@ -1,0 +1,42 @@
+#sectiune {
+    border: solid 5px red;
+}
+#stanga {
+    border: solid 5px blue;
+    margin: 25px;
+    width: 64%;
+    float: left;
+}
+.paragraf {
+    padding: 25px;
+    margin: 0;
+}
+#dreapta {
+    border: solid 5px green;
+    width: 30%;
+    float: left;
+    margin: 25px 0;
+    text-align: center;
+}
+figure {
+    padding: 0;
+    margin: 0;
+
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    /*visibility: hidden;*/
+    line-height: 0;
+    height: 0;
+}
+.clearfix {
+    display: inline-block;
+}
+.myimg {
+     border: solid 5px rgb(209, 10, 235);
+    margin: 25px;
+    width: 20%;
+    float: right;
+}

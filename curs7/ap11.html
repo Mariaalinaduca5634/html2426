@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #a000c8, #ff5fa2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .contact-form {
+            background-color: #f2f2f2;
+            width: 350px;
+            padding: 25px;
+            border-radius: 4px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-form h2 {
+            color: #c0392b;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            font-size: 13px;
+            margin-bottom: 15px;
+            color: #c0392b;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 12px;
+            border: 2px solid #c0392b;
+            border-radius: 3px;
+        }
+
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #8e44ad;
+            color: #fff;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+
+        .contact-form button:hover {
+            background-color: #732d91;
+        }
+
+        .note {
+            font-size: 11px;
+            color: #c0392b;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <form class="contact-form">
+            <h2>Formular de Contact</h2>
+            <p class="subtitle">Va rugam sa ne contactati pentru mai multe optiuni</p>
+            <input type="text" placeholder="Nume si Prenume *" required>
+            <input type="email" placeholder="Your Email Address *" required>
+            <input type="tel" placeholder="Telefon (optional)">
+            <input type="url" placeholder="Web Site (optional)">
+            <textarea placeholder="Mesajul dumneavoastra *" required></textarea>
+
+            <button type="submit">Trimite datele</button>
+            <p class="note">Campurile marcate cu (*) sunt obligatorii</p>
+        </form>
+    </div>
+</body>
+
+</html>

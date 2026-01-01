@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: auto;
+            width: 600px;
+            text-align: center;
+            color: rgb(37, 37, 19);
+            font-weight: bold;
+        }
+
+        td {
+            padding: 15px;
+            border: 2px solid red;
+        }
+
+        tbody tr:nth-child(2n+1) {
+            background-color: #d16ba5;
+        }
+
+        tbody tr:nth-child(2n+2) {
+            background: #0077b6;
+        }
+
+        tfoot {
+            color: #ffffff;
+        }
+
+        tfoot tr:first-child {
+            background: #4a0d3a;
+        }
+
+        tfoot tr:last-child {
+            background: #2d4a1c;
+        }
+
+        caption {
+            margin-bottom: 10px;
+          
+           
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <caption>Orașe număr de mașini noi – vechi</caption>
+
+        <tbody>
+            <tr>
+                <td>Timișoara</td>
+                <td>200</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>Cluj</td>
+                <td>150</td>
+                <td>7000</td>
+            </tr>
+            <tr>
+                <td>București</td>
+                <td>1200</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>Iași</td>
+                <td>50</td>
+                <td>700</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>1600</td>
+                <td>12770</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>18770</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
